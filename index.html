@@ -17,8 +17,8 @@
 <body>
     <navigation>
         <nav class="navigation">
-            <div class="nav-container">
-                <p class="navigation__nav--name">moja firma</p>
+            <div class="nav-container container">
+                <p class="navigation__nav-name">moja firma</p>
                 <ul>
                     <li class="nav-menu__item">
                         <a href="#about" class="nav-menu__link">o mnie</a>
@@ -33,80 +33,83 @@
         </nav>
     </navigation>
     <header class="header">
-        <div class="header-container">
-            <div class="header__bg"></div>
+        <div class="header__bg"></div>
+        <div class="container">
             <div class="header__img">
                 <div class="header__img-text">
                     <h1 class="header-title">Nasza firma oferuję najwyższej jakości produkty.</h1>
                     <p class="header-subtitle">Nie wierz nam na słowo - sprawdź</p>
                 </div>
-                <button class="header-btn">oferta</button>
+                <div class="btn">
+                    <button class="header-btn">
+                        <p class="btn-text">oferta</p>
+                    </button>
+                </div>
             </div>
 
         </div>
     </header>
-
-    <!-- <header>
-        <div class="header">
-            <div class="header-container">
-                <div class="header__bg">
-                </div>
-                <div class="header__img">
-                    <div class="header__img--text">
-                        <h1>Nasza firma oferuję najwyższej jakości produkty</h1>
-                        <p>Nie wierz nam na słowo - sprawdź</p>
-                    </div>
-                    <button class="header__btn">
-                        oferta
-                    </button>
-                </div>
-            </div>
-        </div>
-    </header> -->
-
-
     <main>
-        <div class="first-container">
-            <h2 class="first-container__title">Nasi specjaliści</h2>
-            <div class="first-container__first-img first-img"></div>
-            <div class="first-container__text first__text">
-                <p class="bold-text">Imię Nazwisko [ dział ]</pclass>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a
-                    non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor
-                    elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero
-                    ultrices in.
-                </p>
+
+        <div class="title-about-employee">
+            <h2>Nasi specjaliści</h2>
+        </div>
+        <div class="employee-container container">
+            <div class="employee">
+                <div class="employee-img img"></div>
+                <div class="first-container__text first-text">
+                    <p class="bold-text">Imię Nazwisko [ dział ]</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas
+                        cursus a
+                        non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
+                        tempor
+                        elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt
+                        libero
+                        ultrices in.
+                    </p>
+                </div>
             </div>
-            <div class="first-continer__second-img second-img"></div>
-            <div class="first-container__text second-text">
-                <p class="bold-text">Imię Nazwisko [ dział ]</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a
-                    non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor
-                    elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero
-                    ultrices in.
-                </p>
+
+            <div class="employee">
+                <div class="employee-img-second img"></div>
+                <div class="first-container__text second-text">
+                    <p class="bold-text">Imię Nazwisko [ dział ]</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas
+                        cursus a
+                        non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
+                        tempor
+                        elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt
+                        libero
+                        ultrices in.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="second-container">
-            <h2 class="second-container__about-us">Czym zajmuję się nasza firma?</h2>
-            <div class="second-container__item item__first">
+
+        <div class="container-offer">
+            <h2 class="container-offer__title">Czym zajmuję się nasza firma?</h2>
+            <div class="container-offer__item item__first">
+                <div class="item__first__circle"></div>
                 <p class="item__first__text-center">Usługa 1</p>
                 <p class="item__first__text-center new-text">(nowość)</p>
-                <div class="item__first__circle"></div>
+
             </div>
-            <div class="second-container__item item__second">Usługa 2</div>
-            <div class="second-container__item item__third">Usługa 3</div>
-            <div class="second-container__item item__fourth">Usługa 4</div>
-            <div class="second-container__item item__fifth">Usługa 5</div>
-            <div class="second-container__item item__sixth">Usługa 6</div>
+
+            <div class="container-offer__item item__second">Usługa 2</div>
+            <div class="container-offer__item item__third">Usługa 3</div>
+            <div class="container-offer__item item__fourth">Usługa 4</div>
+            <div class="container-offer__item item__fifth">Usługa 5</div>
+            <div class="container-offer__item item__sixth">Usługa 6</div>
         </div>
     </main>
 
     <footer>
-        <p class="footer__copyright">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</p>
-        <div class="footer__icon">
-            <a href="#" class="fa-brands fa-instagram"></a>
-            <a href="#" class="fa-brands fa-square-facebook"></a>
+        <div class="container-footer">
+            <p class="footer__copyright">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</p>
+            <div class="footer__icon">
+                <a href="instagram.com" class="fa-brands fa-instagram"></a>
+                <a href="facebook.com" class="fa-brands fa-square-facebook"></a>
+            </div>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/a43deedf75.js" crossorigin="anonymous"></script>
