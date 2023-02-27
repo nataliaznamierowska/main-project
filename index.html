@@ -9,28 +9,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a43deedf75.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="img">
+    <link rel="stylesheet" href="img-small">
     <link rel="stylesheet" href="style.css">
     <title>Nazwa firmy</title>
 </head>
 
 <body>
-    <header>
-        <div class="navigation">
-            <p class="navigation__nav--name">nazwa firmy</p>
-        </div>
-        <div class="header__bg">
-        </div>
-        <div class="header__img">
-            <div class="header__img--text">
-                <h1>Nasza firma oferuję najwyższej jakości produkty</h1>
-                <p>Nie wierz nam na słowo - sprawdź</p>
+    <navigation>
+        <nav class="navigation">
+            <div class="nav-container">
+                <p class="navigation__nav--name">moja firma</p>
+                <ul>
+                    <li class="nav-menu__item">
+                        <a href="#about" class="nav-menu__link">o mnie</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#offer" class="nav-menu__link">oferta</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#contact" class="nav-menu__link contact">kontakt</a>
+                    </li>
+                </ul>
+        </nav>
+    </navigation>
+    <header class="header">
+        <div class="header-container">
+            <div class="header__bg"></div>
+            <div class="header__img">
+                <div class="header__img-text">
+                    <h1 class="header-title">Nasza firma oferuję najwyższej jakości produkty.</h1>
+                    <p class="header-subtitle">Nie wierz nam na słowo - sprawdź</p>
+                </div>
+                <button class="header-btn">oferta</button>
             </div>
-            <button class="header__btn">
-                oferta
-            </button>
+
         </div>
     </header>
+
+    <!-- <header>
+        <div class="header">
+            <div class="header-container">
+                <div class="header__bg">
+                </div>
+                <div class="header__img">
+                    <div class="header__img--text">
+                        <h1>Nasza firma oferuję najwyższej jakości produkty</h1>
+                        <p>Nie wierz nam na słowo - sprawdź</p>
+                    </div>
+                    <button class="header__btn">
+                        oferta
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
 
     <main>
         <div class="first-container">
