@@ -14,10 +14,9 @@
 	--margin-p: 14px;
 }
 
-.container {
-	width: 100%;
+#offer {
+	scroll-behavior: smooth;
 }
-
 .navigation {
 	display: flex;
 	align-items: center;
@@ -152,6 +151,10 @@
 	padding-top: 56px;
 	line-height: 100px;
 }
+.new-text {
+	font-size: var(--font-size);
+	font-weight: 400;
+}
 .item__first {
 	position: relative;
 	display: flex;
@@ -229,7 +232,7 @@ a {
 
 /* navigation  */
 @media (min-width: 1024px) {
-	#about{
+	#about {
 		scroll-behavior: smooth;
 	}
 	.container {
@@ -312,9 +315,15 @@ a {
 		margin: 0 auto;
 	}
 	.employee-img {
+		background-image: url(/img-large/pracownik-1.png);
+		background-position: center;
+		background-size: cover;
 		padding-top: 78px;
 	}
 	.employee-img-second {
+		background-image: url(img-large/pracownik-2.jpg);
+		background-position: center;
+		background-size: cover;
 		padding-bottom: 51px;
 	}
 	.img {
@@ -332,28 +341,45 @@ a {
 		padding-right: 60px;
 	}
 }
-/* .second-container  */
+/* .offer-container  */
 @media (min-width: 1024px) {
-	#offer {
-		scroll-behavior: smooth;
-	}
-	.container-offer {
-		display: flex;
+	.offer-box {
+		width: 100%;
 		height: 100%;
 		background-color: #405d78;
 	}
-	.offer-box {
+	.container-offer {
 		display: flex;
-		flex-direction: column;
-		width: 960px;
 		margin: 0 auto;
+		width: 913px;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.container-offer__item {
+		width: 198px;
+		height: 198px;
+		margin: 31px;
+		margin-top: 0px;
+		font-size: 24px;
+		font-weight: 400;
+		transition: 0.5s ease;
+	}
+	.container-offer__item:hover {
+		transform: scale(1.05);
 	}
 	.container-offer__title {
+		display: flex;
+		width: 960px;
+		margin: 0 auto;
 		font-size: 36px;
 		font-weight: var(--bold-font);
 		color: var(--color-white);
 		padding-top: 56px;
-		line-height: 100px;
+		padding-bottom: 82px;
+	}
+	.item {
+		margin-top: 63px;
+		margin-bottom: 56px;
 	}
 }
 /* footer  */
@@ -372,7 +398,6 @@ a {
 		justify-content: space-between;
 		flex-direction: row;
 		align-items: center;
-
 		width: 100%;
 		height: 71px;
 		background-color: var(--div-bg-color);
@@ -382,7 +407,7 @@ a {
 		color: var(--color-white);
 	}
 	.footer__icon {
-		padding: 18px;
+		padding: 0px;
 		font-size: 31px;
 	}
 	.footer__copyright {
