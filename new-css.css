@@ -247,10 +247,10 @@ div.emp-container2 .bold-text {
 
 .service-item-circle {
   position: absolute;
-  left: -17px;
-  top: -17px;
-  width: 37px;
-  height: 37px;
+  left: -10px;
+  top: -10px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   background-color: #e07a64;
 }
