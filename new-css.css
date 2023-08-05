@@ -86,7 +86,6 @@ body {
 }
 .banner_container {
   min-height: inherit;
-  min-height: inherit;
   width: 960px;
   margin: 0 auto;
   padding: 0 30px;
@@ -180,6 +179,7 @@ div.emp-container2 .bold-text {
   min-height: 250px;
   margin: 0 20px;
   border-radius: 50%;
+  background-position: center;
 }
 
 .emp1 {
@@ -188,7 +188,6 @@ div.emp-container2 .bold-text {
 
 .emp2 {
   background-image: url(img-small/pracownik-2.jpg);
-  align-self: right;
 }
 
 .services-container {
